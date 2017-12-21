@@ -1,0 +1,38 @@
+<!--pages/list/list.wxml
+<view class='mine'>榜单NO.1封面</view>-->
+<scroll-view  scroll-y="true" >
+<view class='null-space'>
+    <view class="board">
+        <image wx:if="{{songlist.length>0}}" src="{{board}}" > </image>
+
+    </view>
+</view>
+<view class='mine-a'>榜单歌曲</view>
+    <view class="songlist">
+        <block wx:for="{{songlist}}"  wx:key="song_id">
+            <view class="songitem">
+               
+             <!--  <navigator url="/pages/play/play?songid={{item.songid}}" 
+            class="song-play">/pages/play/play</navigator>
+                                <view class="boards">
+                <image  wx:if="{{songlist.length>0}}" src="{{boards}}" />
+                </view>
+                -->
+                 <view class="boards">
+                <image src="/images/收藏.png" />
+                </view>
+                <navigator url="/pages/play/play?songid={{item.songid}}" 
+                           class="song-detail">
+                           
+                    <view class="song-title">{{item.songname}}</view>
+                    <view class="song-subtitle">{{item.singername}} - 
+                              {{item.seconds}}</view>
+                </navigator>
+            </view>
+        </block>
+    </view>
+
+</scroll-view>
+    <loading hidden="{{!loading}}">
+    加载中...
+  </loading>

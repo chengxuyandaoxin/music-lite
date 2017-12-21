@@ -1,0 +1,40 @@
+<!--pages/new/new.wxml-->
+<view class='mine'>小组件
+<image class='mine-d' src="/images/关于.png" bindtap="bindViewIcon"></image>
+</view>
+<view class="section">
+
+     <!--<view class="flex-wrp" style="flex-direction:row;" wx:for="{{ranksss}}"  wx:key="{{item.type}}">-->
+  
+
+
+
+<view class="boards"><image bindtap='previewImage' src="{{scene}}" alt="Bing每日图片"></image>
+</view>
+
+
+
+
+
+
+<!--
+<view class="content" bindtap='bindWeather'>
+  <!--显示当天的天气信息
+  <view class="info">
+    <!--城市名称 当前日期
+    <view class="city">{{city}} {{today}}</view>
+    <!--当天温度
+    <view class="temp">{{weather.wendu}}℃</view>
+    <!--感冒描述
+    <view class="weather">Tip: {{weather.ganmao}}</view>    
+  </view>
+</view>
+-->
+
+
+<view class="boardss"><image src="/images/a.jpg" bindtap="bindViewIcon1" ></image></view>
+
+
+
+
+</view>

@@ -1,0 +1,126 @@
+/* pages/search-a/search-a.wxss */
+
+.header {
+  margin-top: 4px;
+  /*position: fixed;*/
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  z-index: 1;
+}
+/* 顶部搜索层 背景色*/
+
+.header.scrolled {
+  background: #feb70f;
+}
+
+/* 定位 图片*/
+
+.header .icon {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: top;
+}
+
+/*搜索框*/
+
+.header .search {
+  margin-left: 7px; 
+  width: 86vw;
+  color: #888;
+  font-size: 36rpx;
+  line-height: 40rpx;
+  padding: 20rpx;
+  border-radius: 30rpx; /*添加圆角边框*/
+  background: #f4f4f4;
+}
+.mine{
+  margin-top: 4px;
+  font-size: 34px;
+  margin-left: 6%;
+  font-weight: 500;
+}
+
+/**index.wxss**/
+.rank-list {
+  width: 100%;
+}
+
+
+.boards image{
+     width: 90.5%;
+     height: 380rpx;
+     border-radius: 10px 10px 10px 10px ;
+     box-shadow: 0 0 6px #bfbfbf;
+     margin-top: 1%;
+     margin-left: 4.5%;
+     margin-right: 4.5%;
+}
+
+/*每一个分类*/
+.rank-item {
+  width: 88%;
+  text-align: left;
+  height: 3.15rem;
+  line-height: 3.0rem;
+  border-bottom: 0.6px solid #dfdfdf;
+  position: relative;
+  margin-left: 6%;
+}
+
+/*分类文本*/
+.rank-item .text {
+  font-size: 21px;
+  color:#ff2d55;
+  position: absolute;
+  width: 100%;
+  height:3.2rem;
+  top: 0.02px;
+
+}
+
+
+.mine-a{
+    margin-bottom: 16px;
+    margin-top: 40px;
+    margin-left: 6%;
+    width: 90%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.mine-c{
+
+    margin-top: 15px;
+    margin-left: 5%;
+    width: 90%;
+    font-size: 22px;
+    font-weight: 480;
+}
+.mine-b{
+  font-size: 18px;
+  margin-left: 6%;
+  
+}
+.show{
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  color: #ff2d55;
+  margin-top: 15px;
+}
+.mine-e{
+  font-size: 18px;
+  margin-left: 65%;
+  font-weight: 480;
+  color: #ff2d55;
+}
+.mine-dd{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 56%;
+  position: absolute;
+}
+

@@ -1,0 +1,218 @@
+<!--index.wxml-->
+<view class="container">
+<view class='mine'>播放器
+
+<image class='mine-dd' src="/images/关于.png" bindtap="bindViewIcon"></image>
+ <!--<text class="data">{{today}}</text>-->
+</view>
+<!--<view class='mine-a'></view>-->
+
+
+<view class='boards'>
+
+    <!--<image src="/images/播放器.jpg" bindtap="bindViewTap"></image>-->
+
+        <image src="{{song.albumpic_big}}" bindtap="bindViewTap"></image>
+
+
+
+
+   </view> 
+           
+
+<!--<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+<!--  display: inline-block
+  <view class="boards" style=" width: 350px; height: 100px; display: inline-block" ><view class='mine-b'>欧美榜单推荐</view><image src="/images/a.jpg" /></view>
+  <view class="boards" style=" width: 350px; height: 100px; display: inline-block"><view class='mine-b'>韩国榜单推荐</view><image src="/images/b.jpg" /></view>
+  <view class="boards" style=" width: 350px; height: 100px; display: inline-block"><view class='mine-b'>内地榜单推荐</view><image src="/images/a.jpg" /></view>
+  <view class="boards" style=" width: 350px; height: 100px; display: inline-block"><view class='mine-b'>港台榜单推荐</view><image src="/images/b.jpg" /></view>
+</scroll-view>-->
+
+<view class='mine-a'>地区榜单
+<text class='mine-d'bindtap="binds">查看全部</text>
+</view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks}}"  wx:key="{{item.type}}">
+    <image class='mine-h11' src="/images/音乐榜单.png" />
+      <view class="rank-item">
+
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+
+      </view>
+    </block>
+  </view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks1}}"  wx:key="{{item.type}}">
+     <image class='mine-h11' src="/images/畅销榜单.png" />
+      <view class="rank-item">
+
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+        
+
+      </view>
+    </block>
+  </view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks2}}"  wx:key="{{item.type}}">
+    <image class='mine-h11' src="/images/音乐榜单5.png" />
+      <view class="rank-item">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+        
+
+      </view>
+    </block>
+  </view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks3}}"  wx:key="{{item.type}}">
+    <image class='mine-h11' src="/images/音乐榜单6.png" />
+      <view class="rank-item">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+        
+        
+      </view>
+    </block>
+  </view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks4}}"  wx:key="{{item.type}}">
+    <image class='mine-h111' src="/images/音乐榜单7.png" />
+      <view class="rank-item">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+        
+       
+      </view>
+    </block>
+  </view>
+
+  <view class='mine-c'>音乐库
+  <text class='mine-e'bindtap="binding">更多</text>
+  </view>
+  <view class="rank-list">
+    <block  wx:for="{{rankss}}"  wx:key="{{item.type}}">
+    <image class='mine-h11' src="/images/唱片.png" />
+      <view class="rank-item">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+       
+       
+      </view>
+    </block>
+  </view>
+
+<view class="rank-list">
+    <block  wx:for="{{ranksss2}}"  wx:key="{{item.type}}">
+    <image class='mine-h11' src="/images/音乐榜单4.png" />
+      <view class="rank-item">
+      <!--<image class='mine-h' src="/images/音乐榜单4.png" >-->
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+        
+       <!-- </image>-->
+      </view>
+    </block>
+  </view>
+
+
+<view class="rank-list">
+    <block  wx:for="{{ranksss1}}"  wx:key="{{item.type}}">
+    <image class='mine-h11' src="/images/音乐榜单2.png" />
+      <view class="rank-item">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+        
+       
+      </view>
+    </block>
+  </view>
+
+
+  <view class="rank-list">
+    <block  wx:for="{{ranksss}}"  wx:key="{{item.type}}">
+    <image class='mine-h11' src="/images/音乐榜单1.png" />
+      <view class="rank-item">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+        
+        
+      </view>
+    </block>
+  </view>
+
+
+
+
+
+<!--<scroll-view scroll-x="true" style=" white-space: nowrap; margin-left: 25px;display: flex" >
+  <view class="rank-list" style="width: 320px; height: 155px; display: inline-block">
+    <block  wx:for="{{ranksss}}"  wx:key="{{item.type}}">
+    <image class='mine-left1' src="/images/音乐榜单1.png" />
+      <view class="rank-item1">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+        
+        
+      </view>
+    </block>
+        <block  wx:for="{{ranksss}}"  wx:key="{{item.type}}">
+    <image class='mine-left1' src="/images/音乐榜单1.png" />
+      <view class="rank-item1">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>      
+      </view>
+    </block>
+  </view>
+
+
+
+    <view class="rank-list" style="width: 370px; height: 155px; display: inline-block">
+    <block  wx:for="{{ranksss}}"  wx:key="{{item.type}}">
+    <image class='mine-left' src="/images/音乐榜单1.png" />
+      <view class="rank-item2">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>      
+      </view>
+    </block>
+        <block  wx:for="{{ranksss}}"  wx:key="{{item.type}}">
+    <image class='mine-left' src="/images/音乐榜单1.png" />
+      <view class="rank-item2">
+      
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>      
+      </view>
+    </block>
+    
+  </view>
+
+
+</scroll-view>-->
+
+
+
+
+
+</view>
+
+
+
+
+
+              
+       

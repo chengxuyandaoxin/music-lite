@@ -1,0 +1,52 @@
+/* pages/about/about.wxss */
+.container{
+  margin-left: 50rpx;
+  font-size: 30px;
+  font-weight: 500;
+}
+.mine-a{
+    margin-top: 2px;
+    margin-left: 5%;
+    width: 90%;
+    border-bottom: 0.8px solid #bfbfbf;
+}
+.about{
+  text-align: justify;
+  margin-top: 16px;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+.mine-b{
+  text-align: center;
+  margin-top: 18px;
+  font-size: 24px;
+  color: #ff2d55;
+}
+.mine-c{
+  text-align: justify;
+  margin-top: 21px;
+  font-size: 18px;
+  color: #2c2c2c
+}
+.mine-cs{
+  text-align: justify;
+  margin-top: 12px;
+  color: #2c2c2c;
+  font-size: 22px;
+  font-weight: 500;
+}
+.mine{
+  width: 86%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.boards image{
+     width: 90.5%;
+     height: 360rpx;
+     border-radius: 10px 10px 10px 10px ;
+     box-shadow: 0 0 8px #bfbfbf;
+     margin-bottom: 4%;
+     margin-top: 2%;
+     margin-left: 4.5%;
+     margin-right: 4.5%;
+}

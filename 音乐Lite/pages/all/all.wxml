@@ -1,0 +1,175 @@
+<!--pages/all/all.wxml-->
+<view class="container">
+<!--<view class='mine'>全部列表</view>
+<view class='mine-a'></view>-->
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://mpic.tiankong.com/1f8/9e5/1f89e555e6b5fc6dd70aa494da7166c2/640.jpg"></image>
+   <text class='text1'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+  <!--<view class="rank-list">
+    <block  wx:for="{{ranks}}"  wx:key="{{item.type}}">
+      <view class="rank-item">
+        <image class='mine-d' src="/images/播放列表.png" >     
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}
+            </navigator>
+        <view class="arrow"/>
+              </image>    
+      </view>
+    </block>
+  </view>-->
+  <view class="rank-list">
+  <block  wx:for="{{ranks1}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://pic.58pic.com/58pic/13/23/40/64p58PICqW4_1024.jpg"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks2}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://img.zcool.cn/community/01ca6956dbbc5132f875520fca5f90.png@1280w_1l_2o_100sh.png"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks3}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://mpic.tiankong.com/ad9/38b/ad938b245c3700b998a2895e1f5d73e9/640.jpg"></image>
+   <text class='text2'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks4}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://i5.hunantv.com/p1/20140120/1613077492.jpg"></image>
+   <text class='text2'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks5}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://i1.sinaimg.cn/ent/y/2014-04-11/U7357P28T3D4125333F326DT20140411103622.png"></image>
+   <text class='text3'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks6}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://coloring.ctmus.cn/cms/picture/billboard/b/853c3/e-7c48/b853c39e-7c48-40d8-8476-66cc1c76a401.jpg"></image>
+   <text class='text3'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks7}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://p3.music.126.net/qCNkA8j4lquSvFJbLD8WRg==/1366692959177934.jpg"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks8}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://img3.duitang.com/uploads/item/201505/11/20150511085456_Gz8uF.jpeg"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks9}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="https://y.gtimg.cn/music/photo_new/T002R300x300M000000tEPEw46vmSj.jpg?max_age=2592000"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks10}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="https://y.gtimg.cn/music/photo_new/T002R300x300M000001I3LHr3rxd65.jpg?max_age=2592000"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks11}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="https://y.gtimg.cn/music/photo_new/T002R300x300M0000037x5NY2XuSTo.jpg?max_age=2592000"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+
+
+</view>

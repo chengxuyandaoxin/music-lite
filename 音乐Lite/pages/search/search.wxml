@@ -1,0 +1,50 @@
+<!--pages/search/search.wxml-->
+
+<!--<view class='mine'>搜索</view>
+<view class='mine-a'></view>
+    <view class="search-area"> 
+        <input bindinput="inputing" placeholder="输入歌名、歌手..." 
+             value="{{value}}" ></input>
+        <button type="primary" size="mini" bindtap="bindSearch" 
+              > 立即搜索 </button>
+    </view>-->
+
+    <view class="header">
+  <view class="search">
+    <image class="icon" src="/images/icon_search.png" />
+    <input bindinput="inputing" placeholder="{{placeholder}}" auto-focus></input>
+  </view>
+  <button class="yellow {{searchWords.length?'':'disabled'}}" size="mini" hover-class="hover" loading="" plain="" disabled="{{!value.length}}" bindtap="bindSearch" plain="true">搜索
+  </button>
+</view>
+<view class='whitespace'></view>
+     
+<view class="container">
+    <view class="songlist">
+        <block wx:for="{{list}}" wx:key="{{index}}">
+            <view class="songitem">
+                            
+              <!--<navigator url="/pages/play/play?songid={{item.songid}}" 
+                      class="song-play"></navigator>
+              
+                      <view class="boards">
+                <image  src="{{boards}}" />
+                </view>-->
+                <view class="boards">
+                <image  src="/images/收藏.png" />
+                </view>
+                <navigator url="/pages/play/play?songid={{item.songid}}" 
+                        class="song-detail">
+                  
+                    <view class="song-title">{{item.songname}}-
+                             {{item.singername}}</view>
+                    <view class="song-subtitle">{{item.albumname}}</view>
+                </navigator>
+            </view>
+        </block>
+    </view>
+
+    <loading hidden="{{!loading}}">
+        正在搜索音乐...
+    </loading>
+</view>

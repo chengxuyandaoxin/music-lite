@@ -1,0 +1,64 @@
+<!--pages/search-b/search-b.wxml-->
+
+<import src="/wxSearch/wxSearch.wxml"/>
+
+<view class="header">
+  <view class="search">
+    <image class="icon" src="/images/icon_search.png" />
+    <input bindinput="inputing" bindfocus="wxSerchFocus"   value="{{wxSearchData.value}}" bindblur="wxSearchBlur" placeholder="{{placeholder}}" auto-focus></input>
+  </view>
+  <button class="yellow {{searchWords.length?'':'disabled'}}" size="mini" hover-class="hover" loading="" plain="" disabled="{{!value.length}}" bindtap="bindSearch" bindtap="wxSearchFn" plain="true">搜索
+  </button>
+</view>
+
+   <!-- <view class="header">
+  <view class="search">
+    <input  placeholder="{{placeholder}}" auto-focus
+   bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" ></input>
+  </view>
+  <button class="yellow "  
+  size="mini" hover-class="hover" loading="" plain="" bindtap="bindSearch"
+  plain="true" >搜索
+  </button>
+</view>
+
+<!--<view class="wxSearch-section">
+  <view class="wxSearch-pancel">
+    <input bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="wxSearch-input" placeholder="搜索" />
+    <button class="wxSearch-button" bindtap="wxSearchFn" size="mini" plain="true">搜索</button>
+  </view>
+</view>-->
+<template is="wxSearch" data="{{wxSearchData}}"/>
+
+<view class="container">
+    <view class="songlist">
+        <block wx:for="{{list}}" wx:key="{{index}}">
+            <view class="songitem">
+                            
+              <!--<navigator url="/pages/play/play?songid={{item.songid}}" 
+                      class="song-play"></navigator>
+              
+                      <view class="boards">
+                <image  src="{{boards}}" />
+                </view>-->
+                <view class="boards">
+                <image  src="/images/播放列表.png" />
+                </view>
+                <navigator url="/pages/play/play?songid={{item.songid}}" 
+                        class="song-detail">
+                  
+                    <view class="song-title">{{item.songname}}-
+                             {{item.singername}}</view>
+                    <view class="song-subtitle">{{item.albumname}}</view>
+                </navigator>
+            </view>
+        </block>
+    </view>
+
+    <loading hidden="{{!loading}}">
+        正在搜索音乐...
+    </loading>
+</view>
+
+
+

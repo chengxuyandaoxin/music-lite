@@ -1,0 +1,28 @@
+<!--pages/about-min/about-min.wxml
+<view class="container">
+<text> 关于小组件</text>
+</view>
+<view class='mine-a'></view>-->
+<view class='boards'>
+
+    <!--<image src="/images/播放器.jpg" bindtap="bindViewTap"></image>-->
+
+   <image src="http://mpic.tiankong.com/317/df5/317df50c6c24c2ea7a9ca262074af341/640.jpg"></image>
+</view>
+<view class='mine'>
+<view class="mine-cs">
+<!--<text decode='{{true}}'>&emsp;&emsp;音乐Lite是一个很轻很舒服的小程序，它让我们活得更纯粹，更自然。     </text>-->
+<text decode='{{true}}'>小组件浏览页面会在未来提供一系列小插件功能，灵感来自于ios11的Widget，它依然很轻。     </text>
+</view>
+<!--<view class='about'>
+<text decode='{{true}}'>第一个模块是必应的每日壁纸，每天都会推送一张Bing官方提供的高清图片，除了看美图换个好心情之外，我们还可以点击下载下来做我们的手机壁纸。</text>
+</view>-->
+<view class="mine-c">
+<text decode='{{true}}'>第一个模块是必应的每日壁纸，每天都会推送一张Bing官方提供的高清图片。第二个模块是番茄钟，这也是小猿刚开始接触编程的时候自己倒腾的一个项目，由自己第一个上线小程序粥计划移植升级后而来，我们可以利用番茄工作法，同时搭配上音乐进行高效工作。   </text>
+
+</view>
+</view>
+
+<!--<view class="mine-b">
+<text bindtap="bind"> 音乐Lite，在闲暇中聆听生活</text>
+</view>

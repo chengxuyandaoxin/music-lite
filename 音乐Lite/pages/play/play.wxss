@@ -1,0 +1,74 @@
+/* pages/play/play.wxss */
+/*专辑封面图片*/
+.thumbnail image{
+    height: 250px;
+    width: 91.9%;
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 10px #bfbfbf;
+}
+
+/*音乐名称*/
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 46rpx;
+    padding-top: 20px;
+    margin-bottom: 20rpx;
+     white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*歌手名称*/
+.author{
+    margin-top: 10rpx;
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+     white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*播放*/
+.action{
+    text-align: center;
+    margin-top: 0.6rem;
+    
+
+}
+
+/*播放图标*/
+.action image{
+    margin-top: 40rpx;
+    width: 150rpx;
+    height: 150rpx;
+}
+.mine{
+  font-size: 34px;
+  margin-left: 5%;
+  font-weight: 500;
+}
+.mine-a{
+    margin-top: 2px;
+    margin-left: 5%;
+    width: 90%;
+    border-bottom: 0.8px solid #bfbfbf;
+}
+.mine-c{
+  font-size: 19.5px;
+  margin-left: 49.5%;
+  font-weight: 500;
+  color: #ff2d55;
+}
+.detail1{
+    height: 240px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 6px #dfdfdf;
+}

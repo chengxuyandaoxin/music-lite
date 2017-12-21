@@ -1,0 +1,61 @@
+<!--pages/search-a/search-a.wxml-->
+<view class="container">
+<view class='mine'>搜索</view>
+  <view class="header {{scrollDown?'scrolled':''}}">
+    <view class="search" bindtap="tapSearch">
+      <image class="icon" src="/images/icon_search.png" /> 输入歌名、歌手...
+    </view>
+  </view>
+
+
+
+<view class='mine-a'>热门榜单
+</view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks}}"  wx:key="{{item.type}}">
+      <view class="rank-item">
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+      </view>
+    </block>
+  </view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks1}}"  wx:key="{{item.type}}">
+      <view class="rank-item">
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+      </view>
+    </block>
+  </view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks2}}"  wx:key="{{item.type}}">
+      <view class="rank-item">
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+      </view>
+    </block>
+  </view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks3}}"  wx:key="{{item.type}}">
+      <view class="rank-item">
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+      </view>
+    </block>
+  </view>
+
+  <view class="rank-list">
+    <block  wx:for="{{ranks4}}"  wx:key="{{item.type}}">
+      <view class="rank-item">
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}</navigator>
+      </view>
+    </block>
+  </view>
+
+
+</view>

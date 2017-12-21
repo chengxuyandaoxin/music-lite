@@ -1,0 +1,96 @@
+/* pages/list/list.wxss */
+/*顶部专辑封面图片*/
+.board image{
+    width: 91.9%;
+    height: 230px;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    box-shadow: 0 0 8px #bfbfbf;
+    
+}
+.boards image{
+  margin-top: 8px;
+  width: 36px;
+  height: 36px;
+  padding-left: 12px;
+}
+
+.null-space{
+    width: 100%;
+    height: 250px;
+}
+
+/*音乐列表*/
+.songlist {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  font-size: 0.8rem;
+}
+
+/*每一个音乐项目*/
+.songitem{
+  height: 3.2rem;
+  line-height: 1.5rem;
+  display: flex;
+  border-bottom: 0.8px solid #dfdfdf;
+  padding: 10rpx;
+  width: 100%;
+}
+
+/*选择的音乐项目*/
+.songitem:active {
+  background: #eee;
+}
+
+/*左侧的播放图标*/
+.song-play {
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+}
+.song-play image {
+  line-height: 3rem;
+  width: 50px;
+  height: 50px;
+  padding-top: 13px;
+}
+/*音乐项目的细节内容*/
+.song-detail {
+  white-space: nowrap;
+  width: 90%;
+}
+/*音乐标题*/
+.song-title {
+  width: 80%;
+  margin-top: 2px;
+  font-size: 1rem;
+  margin-left: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*副标题*/
+.song-subtitle {
+  width: 80%;
+  color: #555;
+  margin-left: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mine{
+  font-size: 28px;
+  margin-left: 5%;
+  font-weight: 500;
+}
+.mine-a{
+    margin-bottom: 2px;
+    margin-top: 4px; 
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 490;
+}

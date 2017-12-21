@@ -1,0 +1,161 @@
+<!--pages/allmin/allmin.wxml-->
+<view class="container">
+<!--<view class='mine'>全部列表</view>
+<view class='mine-a'></view>-->
+
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://www.missyuan.net/uploads/allimg/140912/1622526350-7.jpg"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>
+
+      <!--<view class="rank-item">
+        <image class='mine-d' src="/images/播放列表.png" >     
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}
+            </navigator>
+        <view class="arrow"/>
+              </image>   
+      </view> -->
+    
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks1}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://img5.3lian.com/flash/01/13/34.jpg"></image>
+   <text class='text1'>{{item.text}}</text>
+            </navigator>
+
+      <!--<view class="rank-item">
+        <image class='mine-d' src="/images/播放列表.png" >     
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}
+            </navigator>
+        <view class="arrow"/>
+              </image>   
+      </view> -->
+    
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks2}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://pic.ffpic.com/files/2017/0323/sl0305tm84p.jpg"></image>
+   <text class='text'>{{item.text}}</text>
+            </navigator>
+
+      <!--<view class="rank-item">
+        <image class='mine-d' src="/images/播放列表.png" >     
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}
+            </navigator>
+        <view class="arrow"/>
+              </image>   
+      </view> -->
+    
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks3}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://i2.hdslb.com/bfs/archive/53fc9ed46b6d05fd32fe6edb92cda764e9f0a47e.jpg"></image>
+   <text class='text1'>{{item.text}}</text>
+            </navigator>
+
+      <!--<view class="rank-item">
+        <image class='mine-d' src="/images/播放列表.png" >     
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}
+            </navigator>
+        <view class="arrow"/>
+              </image>   
+      </view> -->
+    
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks4}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://mpic.tiankong.com/1f8/9e5/1f89e555e6b5fc6dd70aa494da7166c2/640.jpg"></image>
+   <text class='text1'>{{item.text}}</text>
+            </navigator>
+
+      <!--<view class="rank-item">
+        <image class='mine-d' src="/images/播放列表.png" >     
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}
+            </navigator>
+        <view class="arrow"/>
+              </image>   
+      </view> -->
+    
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks5}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://mpic.tiankong.com/ffb/d26/ffbd2630574c803a728a1d73e1b15514/640.jpg"></image>
+   <text class='text2'>{{item.text}}</text>
+            </navigator>
+
+      <!--<view class="rank-item">
+        <image class='mine-d' src="/images/播放列表.png" >     
+        <navigator url="/pages/list/list?type={{item.type}}" class="text">
+             {{item.text}}
+            </navigator>
+        <view class="arrow"/>
+              </image>   
+      </view> -->
+    
+    </block>
+  </view>
+
+  <view class="rank-list">
+  <block  wx:for="{{ranks6}}"  wx:key="{{item.type}}">
+
+        <view class='boards'>
+        
+    </view>
+   <navigator url="/pages/list/list?type={{item.type}}" class='boards'>
+   <image src="http://mpic.tiankong.com/add/7ba/add7ba20ba10c1d8061855c3f50ee636/640.jpg"></image>
+   <text class='text2'>{{item.text}}</text>
+            </navigator>  
+    </block>
+  </view>
+
+
+
+</view>
+

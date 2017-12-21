@@ -1,0 +1,31 @@
+<!--pages/about/about.wxml
+<view class="container">
+<text> 关于我们</text>
+</view>
+<view class='mine-a'></view>-->
+<view class='boards'>
+
+    <!--<image src="/images/播放器.jpg" bindtap="bindViewTap"></image>-->
+
+   <image src="http://mpic.tiankong.com/23e/099/23e099cd0c9dca54c55515f50c531597/640.jpg"></image>
+</view>
+<view class='mine'>
+<view class="mine-cs">
+<!--<text decode='{{true}}'>&emsp;&emsp;音乐Lite是一个很轻很舒服的小程序，它让我们活得更纯粹，更自然。     </text>-->
+<text decode='{{true}}'>我们设计这款小程序的原因是出于我们对音乐的热爱。希望大家可以从中感受得到我的心意。     </text>
+</view>
+<!--<view class='about'>
+<text decode='{{true}}'>有时候我们只是想静静地听一首歌，却不知道该从何听起。翻开手机里的APP，筛选着种类繁多的歌单。刷刷明星动态，一不小心，美好的生活全都花在了如今无所不能地音乐APP中。</text>
+</view>-->
+<view class="mine-c">
+<text decode='{{true}}'>有没有一种生活，只有一首歌，不会重复、不会跳转。我们可以随时随地拿起手机放一首好听的音乐，放下手机，放松心情，在音乐中忙碌，在愉悦中感受生活。它很轻，不会打扰我们，它每放完一首歌就会安安静静地躺在那里，只有我们想起它，它才会再度响起。   </text>
+
+</view>
+</view>
+
+<!--<view class="mine-b">
+<text bindtap="bind"> 音乐Lite，在闲暇中聆听生活</text>
+</view>
+
+
+

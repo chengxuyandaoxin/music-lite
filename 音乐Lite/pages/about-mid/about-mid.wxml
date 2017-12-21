@@ -1,0 +1,28 @@
+<!--pages/about-min/about-min.wxml
+<view class="container">
+<text> 关于音乐Lite</text>
+</view>
+<view class='mine-a'></view>-->
+<view class='boards'>
+
+    <!--<image src="/images/播放器.jpg" bindtap="bindViewTap"></image>-->
+
+   <image src="http://mpic.tiankong.com/7cf/639/7cf639b58599c7440f5199f908341311/640.jpg"></image>
+</view> 
+<view class='mine'>
+<view class="mine-cs">
+<!--<text decode='{{true}}'>&emsp;&emsp;音乐Lite是一个很轻很舒服的小程序，它让我们活得更纯粹，更自然。     </text>-->
+<text decode='{{true}}'>音乐Lite是一个很轻很舒服的小程序，它能让我们活得更纯粹，更自然。     </text>
+</view>
+<!--<view class='about'>
+<text decode='{{true}}'>我们提供了丰富的音乐榜单资源，例如地区榜单囊括了欧美、日韩、内地等各大地区的热门榜单，排名实时更新。我们还可以通过搜索功能去搜索我们想去听的歌曲。俗话说（小猿自己说..），听最热的歌，做最溜的自己。</text>
+</view>-->
+<view class="mine-c">
+<text decode='{{true}}'>需要注意的是，第一次运行音乐Lite时，播放器图片为空，需要点击歌曲进行加载。另外，我们在使用过程中有可能会遇到某些歌曲点击播放无响应的问题，这是因为QQ音乐的版权问题所导致的，如果大家仍然想听这首歌，建议配合QQ音乐进行收听。谢谢小伙伴们的支持！</text>
+
+</view>
+</view>
+
+<!--<view class="mine-b">
+<text bindtap="bind"> 音乐Lite，在闲暇中聆听生活</text>
+</view>

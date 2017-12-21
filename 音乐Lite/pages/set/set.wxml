@@ -1,0 +1,48 @@
+<!--pages/set/set.wxml
+<view class='mine'>设置时长</view>
+<view class='mine-a'></view>-->
+<view class='boards'>
+
+    <!--<image src="/images/播放器.jpg" bindtap="bindViewTap"></image>-->
+
+   <image src="/images/640.jpg"></image>
+</view> 
+
+<view class="container">
+
+	<view class="section panel">
+	  <text class="section_title">工作时长(min)</text>
+	  <view class="section_body">
+	    <slider 
+	    	bindchange="changeWorkTime" 
+	    	show-value="true" 
+	    	min="1"
+	    	max="90"
+	    	value="{{workTime}}"
+	    	left-icon="cancel" 
+	    	right-icon="success_no_circle"/>
+	  </view>
+	</view>
+
+	<view class="section panel">
+	  <text class="section_title">放松时长(min)</text>
+	  <view class="section_body">
+	    <slider 
+	    	bindchange="changeRestTime" 
+	    	show-value="true" 
+	    	min="1"
+	    	max="90"
+	    	value="{{restTime}}"
+	    	left-icon="cancel" 
+	    	right-icon="success_no_circle"/>
+	  </view>
+	</view>
+
+    <view class="search-area"> 
+        <button type="primary" style='background-color:#ff2d55' size="mini" bindtap="bindViewIcon" 
+              > 确认设置 </button>           
+    </view>
+
+
+</view>
+

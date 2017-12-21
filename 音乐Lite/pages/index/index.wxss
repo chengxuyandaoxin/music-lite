@@ -1,0 +1,180 @@
+/**index.wxss**/
+.rank-list {
+  width: 100%;
+}
+
+
+.boards image{
+     width: 90.5%;
+     height: 380rpx;
+     border-radius: 12px 12px 12px 12px ;
+     box-shadow: 0 0 6px #bfbfbf;
+     margin-top: 1%;
+     margin-left: 4.5%;
+     margin-right: 4.5%;
+}
+
+/*每一个分类*/
+.rank-item {
+  width: 76%;
+  text-align: left;
+  height: 2.8rem;
+  line-height: 2.9rem;
+ border-bottom: 0.8px solid #dfdfdf;
+  position: relative;
+  margin-left: 19%;
+}
+
+/*分类文本*/
+.rank-item .text {
+  padding-left: 0.1rem;
+  font-size: 20px;
+  color:#ff2d55;
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  top: 0.02px;
+
+}
+
+/*分类名右侧的箭头图标*/
+.rank-item .arrow {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #bfbfbf;
+  border-right: 2px solid #bfbfbf;
+  position: absolute;
+  right: 16px;
+  transform: rotate(45deg);
+  top: 18px;
+}
+
+.mine{
+  font-size: 30px;
+  margin-left: 5%;
+  font-weight: 500;
+}
+.mine-a{
+
+    margin-top: 6px;
+    margin-left: 5%;
+    width: 90%;
+    font-size: 22px;
+    font-weight: 490;
+}
+.mine-c{
+
+    margin-top: 15px;
+    margin-left: 5%;
+    width: 90%;
+    font-size: 22px;
+    font-weight: 490;
+}
+.mine-b{
+  font-size: 18px;
+  margin-left: 6%;
+  
+}
+.show{
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  color: #ff2d55;
+  margin-top: 15px;
+}
+.mine-d{
+  font-size: 18px;
+  margin-left: 48%;
+  font-weight: 480;
+  color: #ff2d55;
+}
+.mine-e{
+  font-size: 18px;
+  margin-left: 65%;
+  font-weight: 480;
+  color: #ff2d55;
+}
+.mine-dd{
+  width: 55rpx;
+  height: 55rpx;
+  margin-left: 58%;
+  position: absolute;
+  margin-top: 18rpx;
+}
+.data{
+  margin-top: 154rpx;
+  margin-left: 38%;
+  position: absolute;
+  font-size: 22px;
+}
+.mine-h11{
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 11px;
+  width: 55rpx;
+  height: 55rpx;
+}
+.mine-h111{
+  position: absolute;
+  margin-left: 23px;
+  margin-top: 9px;
+  width: 65rpx;
+  height: 65rpx;
+}
+.mine-left{
+  position: absolute;
+  margin-top: 11px;
+  width: 55rpx;
+  height: 55rpx;
+}
+.mine-left1{
+  position: absolute;
+  margin-top: 11px;
+  width: 55rpx;
+  height: 55rpx;
+}
+/*每一个分类*/
+.rank-item1 {
+  width: 76%;
+  text-align: left;
+  height: 4.0rem;
+  line-height: 3.2rem;
+ border-bottom: 0.8px solid #dfdfdf;
+  position: relative;
+  margin-left: 12%;
+}
+/*每一个分类*/
+.rank-item2 {
+  width: 76%;
+  text-align: left;
+  height: 4.0rem;
+  line-height: 3.2rem;
+ border-bottom: 0.8px solid #dfdfdf;
+  position: relative;
+  margin-left: 12%;
+}
+/*分类文本*/
+.rank-item2 .text {
+  padding-left: 0.1rem;
+  font-size: 20px;
+  color:#ff2d55;
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  top: 0.02px;
+
+}
+
+/*分类文本*/
+.rank-item1 .text {
+  padding-left: 0.1rem;
+  font-size: 20px;
+  color:#ff2d55;
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  top: 0.02px;
+
+}
+
+

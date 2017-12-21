@@ -1,0 +1,48 @@
+<!--logs.wxml-->
+<view class="container">
+<view class='mine'><text>资料</text>
+<text class='mine-c'bindtap="bind">关于我们</text>
+</view>
+
+<view class='mine-a'></view>
+<image class='aboard' src="/images/播放器.jpg"></image>
+  <view class="userinfo">  
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">嗨！{{userInfo.nickName}}</text>
+
+    </block>
+         
+  </view>
+
+
+<view class="a">
+<contact-button 
+  class="aa"
+  type="default-dark" 
+  size="29"
+  session-from="weapp"
+>
+</contact-button>
+<image class='pos1' src="/images/微信.png"></image>
+<image class='mine-dd' src="/images/转发.png"></image>
+<button type="primary" plain='true' size="mini" class='pos' open-type="share"> 立即搜索 </button>
+</view>
+<view class="name">反馈</view>
+<view class="name1">推荐</view>
+
+
+
+
+
+  <view class="usermotto">
+
+    <text class="user-motto" bindtap="bind">{{motto}}</text> 
+
+  </view>
+  <view class="verson">
+  <text class="verson-name">音乐Lite v1.0.0</text>
+  </view>
+</view>
